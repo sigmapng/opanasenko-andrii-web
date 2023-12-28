@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="user.svg" type="image/x-icon">
+</head>
+<body>
+<div class="container">
+    <div class="registration-form-wrap">
+        <div class="registration-form">
+            <h1>Register</h1>
+            <p>Please fill in this form to create an account.</p>
+            <form class="input-wrap" id="inputs" action="https://webhook.site/da9cc143-55d3-429e-ba01-129feb3b8660">
+                <label for="user-first-name"> Enter your first name</label>
+                <input type="text" name="first-name" id="user-first-name" required>
+
+                <label for="user-last-name"> Enter your first name</label>
+                <input type="text" name="last-name" id="user-last-name" required>
+
+                <label for="user-email">Enter your email</label>
+                <input type="email" name="email" id="user-email" required>
+
+                <label for="user-password">Enter your password</label>
+                <input type="password" name="password" id="user-password" required>
+
+                <label for="user-password-confirm">Confirm your password</label>
+                <input type="password" name="password-confirm" id="user-password-confirm" required>
+
+                <label for="user-birth-date">Enter your birthday</label>
+                <input type="date" name="birthday" id="user-birth-date">
+            </form>
+            <button type="submit" class="submit-btn" form="inputs">Submit</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
